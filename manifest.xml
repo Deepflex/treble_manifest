@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="phh" fetch="https://github.com/phhusson/" />
+<remote name="deepflex" fetch="https://github.com/deepflex/" />
+<project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="pie" />
+<project path="device/phh/treble" name="device_phh_treble" remote="deepflex" revision="master" />
+<project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="master" />
+<project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
+<project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
+<project path="vendor/gapps" name="vendor_gapps" remote="deepflex" revision="master" />
+<!-- exfat support -->
+<project path="external/exfat" name="exfat" remote="phh" revision="android.bp-pie" />
+</manifest>
